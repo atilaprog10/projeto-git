@@ -1,0 +1,1 @@
+Projeto da disciplina de Configurações e Mudanças - versionamento de código em equipe
