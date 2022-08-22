@@ -1,0 +1,80 @@
+.background-banner{
+    height: 629px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../imagens/contato.png");
+}
+
+
+.nome-depoente{
+    color: #515070;
+}
+
+.comentario-depoente{
+    color: #898989;
+}
+
+.background-sobre{
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.imagem-sobre{
+    width: 465px;
+}
+
+
+.texto-banner>h6{
+    margin-bottom: 10px;
+}
+
+
+.background-depoimento{
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f0ecece7;
+}
+
+.caixa-depoimento{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-depoimento{
+    padding: 20px;
+    width: 580px;
+    background: white;
+    text-align: left;
+}
+
+.depoente{
+    display: flex;
+}
+
+
+.imagem-faleconosco{
+    width: 464px;
+}
+
+.background-faleconosco{
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #F6F6F6;
+}
+
+.fale-conosco-item{
+    width: 100%;
+}
+
