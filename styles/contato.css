@@ -1,0 +1,15 @@
+
+.background-banner{
+    height: 456px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/contato.png");
+    background-position: center;
+}
+
+.contato{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
