@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contate-nos!</title>
+    <link rel="stylesheet" href="../styles/geral.css">
     <link rel="stylesheet" href="../styles/cabecalho.css">
     <link rel="stylesheet" href="../styles/contato.css">
     <link rel="stylesheet" href="../styles/rodape.css">
@@ -12,16 +13,12 @@
 </head>
 <body>
     <header class="cabecalho container">
-        <header class="cabecalho container">
-
-            <div class="menu">
-                <a class="menu-item" href="../index.html">Home</a>
-                <a class="menu-item" href="sobre.html">Sobre</a>
-                <a class="menu-item" href="">Serviços</a>
-                <a class="menu-item" href="contato.html">Contato</a> 
-            </div>
-    
-        </header>
+        <div class="menu">
+            <a class="menu-item" href="../index.html">Home</a>
+            <a class="menu-item" href="sobre.html">Sobre</a>
+            <a class="menu-item" href="">Serviços</a>
+            <a class="menu-item" href="contato.html">Contato</a> 
+        </div>
     </header>
     <div class="background-banner">
         <div class="container">
@@ -32,8 +29,56 @@
             </div>
         </div>
     </div>
-    <section class="contato container">
-        
+    <section class="container">
+        <form class="formulario" action="submit">
+            <div class="titulo-formulario">
+                <h4 class="titulo">Envie-nos uma mensagem</h4>
+                <img class="imagem-envelope" src = "" alt="imagem mensagem">
+            </div>
+            <div class="formulario-itens">
+                <div class="itens">
+                    <label for="nome">Nome</label>
+                    <input id="nome" class = "input" type="text" placeholder="Ex.: João Alves Limeira">
+                </div>
+                <div class="itens">
+                    <label for="email">Email</label>
+                    <input id="email" class = "input" type="email" placeholder="Ex.: seuemail@email.com">
+                </div>
+            </div>
+            <div class="formulario-itens">
+                <div class="itens">
+                    <label for="ramo">Ramo em que atua</label>
+                    <select id="ramo" class = "input" name="atuacao">
+                        <option selected disabled>Selecione...</option>
+                        <option value="ramo1">Ramo1</option>
+                        <option value="ramo2">Ramo2</option>
+                        <option value="ramo3">Ramo3</option>
+                        <option value="ramo4">Ramo4</option>
+                    </select>
+                </div>
+                <div class="itens">
+                    <label for="assunto">Assunto</label>
+                    <span id="assunto" class="input">
+                        <input type="radio" name="assunto" id="reclamação">Reclamação
+                        <input type="radio" name="assunto" id="contratação">Contratação
+                    </span>   
+                </div>
+            </div>
+            <div class="itens">
+                <label for="mensagem">Mensagem</label>
+                <input id="mensagem" class="input mensagem" name="mensagem" placeholder="Digite aqui a sua mensagem"></input>
+            </div>
+            <div class="formulario-itens">
+                <div class="itens">
+                    <div class="politica-de-uso">
+                        <span><input type="checkbox" name = "termo-de-uso">Li e concordo com a </span><a>política de privacidade</a>
+                    </div>
+                </div>
+                <div class="itens">
+                    <button class="botao botao-formulario" type="submit"><a>Enviar</a><img src="" alt="imagem botão"></button>
+                </div> 
+            </div>
+        </form>
     </section>
 
     <footer class="rodape container">

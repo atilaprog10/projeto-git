@@ -5,11 +5,63 @@
     background-position: center;
 }
 
-.contato{
-    max-width: 100%;
+.titulo-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario{
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.formulario-itens{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.itens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+    height: 57px;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#nome, #ramo{
+    width: 90%;
+}
+
+.politica-de-uso>a{
+    text-decoration-line: underline;
+    display: inline;
+}
+
+.botao-formulario{
+    align-self: flex-end;
 }
