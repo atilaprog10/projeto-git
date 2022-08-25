@@ -12,6 +12,7 @@
 
 body{
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body, section, div, h6, h5{
