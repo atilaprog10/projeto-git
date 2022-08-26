@@ -1,1 +1,1 @@
-Projeto da disciplina de Configurações e Mudanças - versionamento de código em equipe
+Projeto da disciplina de Gerência de Configurações e Mudanças - versionamento de código em equipe
