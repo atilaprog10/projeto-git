@@ -43,8 +43,9 @@
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-size: over;
+    background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/portfolio.png");
+    align-items: center;
     justify-content: space-around;
     color: #B8860B;
 }
@@ -52,6 +53,7 @@
 .imagem-depoimento{
     width: 60%;
     height: auto;
+    border-radius: 50px;
 }
 
 .background-depoimento{
