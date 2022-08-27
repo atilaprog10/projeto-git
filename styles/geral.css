@@ -13,7 +13,7 @@
 body{
     min-height: 100vh;
     font-family: Verdana;
-    background-color: rgb(212, 215, 216);
+    background-color: rgb(216, 222, 224);
 }
 
 body, section, div, h6, h5{
@@ -38,7 +38,7 @@ body, section, div, h6, h5{
 }
 
 .menu-item{
-    color: rgb(224, 150, 52);
+    color: rgb(70, 68, 65);
     font-family: arial;
     font-size: 20px;
 }
