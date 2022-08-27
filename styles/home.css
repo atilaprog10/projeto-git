@@ -58,13 +58,18 @@
 
 .background-depoimento{
     width: 100%;
-    height: 688px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background: #f0ecece7;
    
 }
+
+.antetitulo{
+    font-size: 15px;
+}
+
 .antetitulo-banner{
     font-style: bold;
     font-size: 1.333rem;
@@ -83,7 +88,7 @@
     cursor: pointer;
 }
 .depoimento-titulo-container{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
