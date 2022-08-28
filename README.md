@@ -1,8 +1,8 @@
-<h1 style="text-align: center;">Projeto da disciplina de Gerência de Configurações e Mudanças</h1>
+<h1 style="text-align: center;">Projeto: Gerência de Configurações e Mudanças</h1>
 <h2>Proposta do projeto: desenvolver site (páginas: Principal, Contato e Portfólio)</h2>
 <h2>Conceito: empresa de software fictícia</h2>
 <h2>Efeito didático: versionamento de código em equipe (usando o Git)</h2>
-<h4 style="text-align: center;">Visite nossa página em Github Pages: 👇</h4>
+<h4 style="text-align: center;">Visite nossa página em Github Pages: 👇😀</h4>
 <a href="https://atilaprog10.github.io/projeto-git/"><img src="imagens/banner-readme.png"></img></a>
 <h2>Equipe (Desenvolvedores):</h2>
 <ul>
