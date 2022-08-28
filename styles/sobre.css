@@ -1,6 +1,6 @@
 .background-banner{
-    height: 629px;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/portfolio.png");
+    height: 456px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/sobre.png");
     background-position: center;
 }
 
@@ -21,9 +21,9 @@
     margin: 50px;
 }
 .imagem{
-    width: 30%;
-    margin: 30px;
-    border-radius: 30px;
+width: 30%;
+margin: 30px;
+border-radius: 30px;
 }
 .eletrica{
     display: flex;
