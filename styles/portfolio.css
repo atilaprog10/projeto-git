@@ -24,11 +24,21 @@
 margin: 50px;
 border-radius: 30px;
 }
-
 .eletrica{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin: 50px;
+}
+.conteiner-eletrica{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+
+.imagemEletrica{
+    width: 25%;
+    margin: 50px;
+    border-radius: 30px;
 }
