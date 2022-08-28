@@ -2,7 +2,7 @@ body{
     font-family: Verdana;
 }
 .background-banner{
-    height: 456px;
+    height: 629px;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/contato.png");
     background-position: center;
 }
