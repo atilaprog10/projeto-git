@@ -1,4 +1,6 @@
-
+body{
+    font-family: Verdana;
+}
 .background-banner{
     height: 456px;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../imagens/contato.png");
@@ -71,4 +73,16 @@
     margin: 0 0 30px 0;
     border-radius: 100px;
     
+}
+.botao-formulario{
+    width: 30%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    background-color: #836FFF;
+    transition: 1s;
+}
+.botao-formulario:hover{
+    cursor: pointer;
+    background-color:	#6959CD;
 }
