@@ -65,3 +65,10 @@
 .botao-formulario{
     align-self: flex-end;
 }
+
+.imagem-envelope{
+    width: 50%;
+    margin: 0 0 30px 0;
+    border-radius: 100px;
+    
+}
